@@ -32,7 +32,7 @@ export default function PokemonSearch() {
   }
 
   return (
-    <div>
+    <div className="pokemon-container">
       <h1>Buscar Pokémon</h1>
 
       <input
@@ -48,7 +48,7 @@ export default function PokemonSearch() {
 
       {loading && <p>Cargando...</p>}
 
-      {error && <p>{error}</p>}
+      {error && <p className="error">{error}</p>}
 
       {pokemon && (
         <div>
