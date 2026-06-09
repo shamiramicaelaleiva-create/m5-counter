@@ -1,10 +1,9 @@
-import Counter from "@/components/Counter";
+import PokemonSearch from '@/components/PokemonSearch';
 
 export default function Page() {
   return (
     <main>
-      <h1>M5 Counter</h1>
-      <Counter />
+      <PokemonSearch />
     </main>
   );
 }
